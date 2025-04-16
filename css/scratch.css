@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.common{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    background-image: url(https://images4.alphacoders.com/114/thumb-1920-1144182.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 400px;
+    line-height: 400px;
+    width: 100%;
+    font-size: 45px;
+}
+
+.mainbody{
+    background-color: whitesmoke;
+    padding: 40px 20px;
+}
+
+.footer{
+    position: fixed;
+    background-color: black;
+    color: whitesmoke;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    line-height: 25px;
+}
+
+img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 18px;
+
+}
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #ccc
+}
+
+.centered-list{
+    max-width: 600px;
+    margin: 0 auto;
+    }
+
+
+ul {
+    list-style-type: disc;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 400px;
+    font-weight: bold;
+    }
+      
+ ol {
+    list-style-type: decimal;
+    margin-left: 15px;
+    padding-left: 15px;
+    font-weight: lighter;
+    }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px auto;
+    background-color: whitesmoke;
+    }
+
+.tableau-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 70px;
+    margin-left: 70px;
+    }

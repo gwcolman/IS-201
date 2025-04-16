@@ -1,0 +1,9 @@
+.missionimgs {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+.missionimgs img {
+    width: 80%;
+    height: auto;
+  }
